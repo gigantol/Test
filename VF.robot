@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    Hi there
-Resource    ../Resources/common.robot
-Resource    ../Resources/VFkw.robot
+Resource    /Resources/common.robot
+Resource    /Resources/VFkw.robot
 
 Test Setup    common.start    ${BROWSER}
 Test Teardown    common.end
